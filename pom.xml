@@ -14,6 +14,9 @@
         <module>heima-leadnews-apis</module>
         <module>heima-leadnews-model</module>
         <module>heima-leadnews-article</module>
+        <module>heima-leadnews-login</module>
+        <module>heima-leadnews-user</module>
+        <module>heima-leadnews-media</module>
     </modules>
 
     <!-- 继承Spring boot工程 -->
@@ -199,16 +202,16 @@
                 <artifactId>fastjson</artifactId>
                 <version>${fastjson.version}</version>
             </dependency>
-            <dependency>
-                <groupId>com.fasterxml.jackson.dataformat</groupId>
-                <artifactId>jackson-dataformat-cbor</artifactId>
-                <version>${fastjson.dataformat.version}</version>
-            </dependency>
-            <dependency>
-                <groupId>com.fasterxml.jackson.dataformat</groupId>
-                <artifactId>jackson-dataformat-xml</artifactId>
-                <version>${fastjson.dataformat.version}</version>
-            </dependency>
+            <!--<dependency>-->
+                <!--<groupId>com.fasterxml.jackson.dataformat</groupId>-->
+                <!--<artifactId>jackson-dataformat-cbor</artifactId>-->
+                <!--<version>${fastjson.dataformat.version}</version>-->
+            <!--</dependency>-->
+            <!--<dependency>-->
+                <!--<groupId>com.fasterxml.jackson.dataformat</groupId>-->
+                <!--<artifactId>jackson-dataformat-xml</artifactId>-->
+                <!--<version>${fastjson.dataformat.version}</version>-->
+            <!--</dependency>-->
             <!-- spring colud -->
             <dependency>
                 <groupId>org.springframework.cloud</groupId>

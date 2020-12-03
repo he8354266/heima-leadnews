@@ -1,0 +1,18 @@
+-------------------------------------------------------------------------------
+Test set: com.heima.behavior.test.BehaviorTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 14,234.837 s <<< FAILURE! - in com.heima.behavior.test.BehaviorTest
+testSave(com.heima.behavior.test.BehaviorTest)  Time elapsed: 14,220.655 s  <<< ERROR!
+org.springframework.dao.DeadlockLoserDataAccessException: 
+
+### Error updating database.  Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLTransactionRollbackException: Deadlock found when trying to get lock; try restarting transaction
+### The error may exist in class path resource [mappers/app/ApShowBehaviorMapper.xml]
+### The error may involve defaultParameterMap
+### The error occurred while setting parameters
+### SQL: insert into ap_show_behavior (id,entry_id, article_id,is_click, show_time, created_time) values                        (?,?, ?,0, now(),now())
+### Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLTransactionRollbackException: Deadlock found when trying to get lock; try restarting transaction
+; Deadlock found when trying to get lock; try restarting transaction; nested exception is com.mysql.jdbc.exceptions.jdbc4.MySQLTransactionRollbackException: Deadlock found when trying to get lock; try restarting transaction
+	at com.heima.behavior.test.BehaviorTest.testSave(BehaviorTest.java:41)
+Caused by: com.mysql.jdbc.exceptions.jdbc4.MySQLTransactionRollbackException: Deadlock found when trying to get lock; try restarting transaction
+	at com.heima.behavior.test.BehaviorTest.testSave(BehaviorTest.java:41)
+

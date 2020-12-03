@@ -11,7 +11,7 @@ import org.apache.ibatis.annotations.Param;
 public interface ApUserFanMapper {
     int insert(ApUserFan recoed);
 
-    ApUserFan selectByFansId(@Param("burst") String burst, @Param("userId") Integer userId, @Param("fansId") Long fansId);
+    ApUserFan selectByFansId( @Param("userId") Integer userId, @Param("fansId") Long fansId);
 
-    int deleteByFansId(@Param("burst") String burst, @Param("userId") Integer userId, @Param("fansId") Long fansId);
+    int deleteByFansId( @Param("userId") Integer userId, @Param("fansId") Long fansId);
 }

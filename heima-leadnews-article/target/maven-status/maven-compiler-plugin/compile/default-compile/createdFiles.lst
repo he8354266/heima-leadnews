@@ -1,8 +1,13 @@
-com\heima\article\ArticleJarApplication.class
-com\heima\article\service\AppArticleService.class
+com\heima\article\controller\v1\ArticleSearchController.class
+com\heima\article\service\ApArticleSearchService.class
 com\heima\article\service\AppArticleInfoService.class
 com\heima\article\config\MysqlConfig.class
+com\heima\article\config\ZookeeperConfig.class
 com\heima\article\controller\v1\ArticleHomeController.class
+com\heima\article\service\impl\ApArticleSearchServiceImpl.class
+com\heima\article\ArticleJarApplication.class
+com\heima\article\service\AppArticleService.class
 com\heima\article\service\impl\AppArticleInfoServiceImpl.class
 com\heima\article\service\impl\AppArticleServiceImpl.class
+com\heima\article\config\InitConfig.class
 com\heima\article\controller\v1\ArticleInfoController.class

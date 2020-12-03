@@ -19,6 +19,7 @@ E:\APP\heima-leadnews\heima-leadnews\heima-leadnews-model\src\main\java\com\heim
 E:\APP\heima-leadnews\heima-leadnews\heima-leadnews-model\src\main\java\com\heima\model\common\enums\AppHttpCodeEnum.java
 E:\APP\heima-leadnews\heima-leadnews\heima-leadnews-model\src\main\java\com\heima\model\crawler\core\cookie\CrawlerHtml.java
 E:\APP\heima-leadnews\heima-leadnews\heima-leadnews-model\src\main\java\com\heima\model\article\dtos\ArticleHomeDto.java
+E:\APP\heima-leadnews\heima-leadnews\heima-leadnews-model\src\main\java\com\heima\model\mappers\app\ApHotWordsMapper.java
 E:\APP\heima-leadnews\heima-leadnews\heima-leadnews-model\src\main\java\com\heima\model\crawler\core\proxy\CrawlerProxyProvider.java
 E:\APP\heima-leadnews\heima-leadnews\heima-leadnews-model\src\main\java\com\heima\model\crawler\pojos\ClIpPool.java
 E:\APP\heima-leadnews\heima-leadnews\heima-leadnews-model\src\main\java\com\heima\model\user\dtos\FansOperationDto.java
@@ -43,6 +44,7 @@ E:\APP\heima-leadnews\heima-leadnews\heima-leadnews-model\src\main\java\com\heim
 E:\APP\heima-leadnews\heima-leadnews\heima-leadnews-model\src\main\java\com\heima\model\admin\pojos\AdUser.java
 E:\APP\heima-leadnews\heima-leadnews\heima-leadnews-model\src\main\java\com\heima\model\mappers\app\ApUserFollowMapper.java
 E:\APP\heima-leadnews\heima-leadnews\heima-leadnews-model\src\main\java\com\heima\model\crawler\core\parse\impl\CrawlerParseItem.java
+E:\APP\heima-leadnews\heima-leadnews\heima-leadnews-model\src\main\java\com\heima\model\mappers\admin\AdChannelMapper.java
 E:\APP\heima-leadnews\heima-leadnews\heima-leadnews-model\src\main\java\com\heima\model\mess\admin\SubmitArticleAuto.java
 E:\APP\heima-leadnews\heima-leadnews\heima-leadnews-model\src\main\java\com\heima\model\admin\pojos\AdRole.java
 E:\APP\heima-leadnews\heima-leadnews\heima-leadnews-model\src\main\java\com\heima\model\behavior\dtos\ShowBehaviorDto.java
@@ -101,6 +103,7 @@ E:\APP\heima-leadnews\heima-leadnews\heima-leadnews-model\src\main\java\com\heim
 E:\APP\heima-leadnews\heima-leadnews\heima-leadnews-model\src\main\java\com\heima\model\media\dtos\CommentDto.java
 E:\APP\heima-leadnews\heima-leadnews\heima-leadnews-model\src\main\java\com\heima\model\mappers\app\ApLikesBehaviorMapper.java
 E:\APP\heima-leadnews\heima-leadnews\heima-leadnews-model\src\main\java\com\heima\model\admin\pojos\AdUserLogin.java
+E:\APP\heima-leadnews\heima-leadnews\heima-leadnews-model\src\main\java\com\heima\model\mappers\app\ApAssociateWordsMapper.java
 E:\APP\heima-leadnews\heima-leadnews\heima-leadnews-model\src\main\java\com\heima\model\behavior\pojos\ApReadBehavior.java
 E:\APP\heima-leadnews\heima-leadnews\heima-leadnews-model\src\main\java\com\heima\model\article\pojos\ApHotArticles.java
 E:\APP\heima-leadnews\heima-leadnews\heima-leadnews-model\src\main\java\com\heima\model\media\pojos\WmMaterial.java
@@ -126,6 +129,7 @@ E:\APP\heima-leadnews\heima-leadnews\heima-leadnews-model\src\main\java\com\heim
 E:\APP\heima-leadnews\heima-leadnews\heima-leadnews-model\src\main\java\com\heima\model\mess\admin\SubmitUserinfoAuth.java
 E:\APP\heima-leadnews\heima-leadnews\heima-leadnews-model\src\main\java\com\heima\model\article\dtos\ArticleInfoDto.java
 E:\APP\heima-leadnews\heima-leadnews\heima-leadnews-model\src\main\java\com\heima\model\crawler\core\cookie\CrawlerCookie.java
+E:\APP\heima-leadnews\heima-leadnews\heima-leadnews-model\src\main\java\com\heima\model\mappers\app\ApUserSearchMapper.java
 E:\APP\heima-leadnews\heima-leadnews\heima-leadnews-model\src\main\java\com\heima\model\article\pojos\ApArticleSDto.java
 E:\APP\heima-leadnews\heima-leadnews\heima-leadnews-model\src\main\java\com\heima\model\behavior\dtos\ReadBehaviorDto.java
 E:\APP\heima-leadnews\heima-leadnews\heima-leadnews-model\src\main\java\com\heima\model\crawler\core\delayed\DelayedUtils.java

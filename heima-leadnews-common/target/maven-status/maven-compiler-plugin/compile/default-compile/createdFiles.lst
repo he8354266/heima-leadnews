@@ -13,11 +13,16 @@ com\heima\common\mysql\core\MysqlCoreConfig.class
 com\heima\common\web\app\security\AppTokenFilter.class
 com\heima\common\jackson\ConfusionSerializerModifier.class
 com\heima\common\jackson\ConfusionDeserializerModifier.class
+com\heima\common\zookeeper\sequence\Sequences.class
 com\heima\common\mysql\core\TransactionConfig.class
 com\heima\common\common\util\HMStringUtils.class
+com\heima\common\zookeeper\sequence\ZkSequence.class
+com\heima\common\zookeeper\ZookeeperClient.class
 com\heima\common\jackson\DateDeserializer.class
 com\heima\common\web\wm\security\WmCheckSignFilter.class
 com\heima\common\threadpool\ThreadPoolConfig.class
+com\heima\common\zookeeper\ZkConfig.class
+com\heima\common\zookeeper\sequence\ZkSequenceEnum.class
 com\heima\common\web\admin\security\AdminCheckSignFilter.class
 com\heima\common\common\contants\Contants.class
 com\heima\common\common\util\IdWorker.class

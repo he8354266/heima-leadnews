@@ -13,6 +13,6 @@ public interface ApUserFollowMapper {
 
     int insert(ApUserFollow record);
 
-    int deleteByFollowId(@Param("burst") String burst, @Param("userId") Long userId, @Param("followId") Integer followId);
+    int deleteByFollowId( @Param("userId") Long userId, @Param("followId") Integer followId);
 
 }

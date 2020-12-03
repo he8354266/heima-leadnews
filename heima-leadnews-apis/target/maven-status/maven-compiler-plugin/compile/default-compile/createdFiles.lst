@@ -1,3 +1,10 @@
-com\heima\article\apis\ArticleInfoControllerApi.class
 com\heima\article\apis\BehaviorControllerApi.class
+com\heima\media\apis\AdChannelControllerApi.class
+com\heima\login\apis\LoginControllerApi.class
+com\heima\media\apis\NewsControllerApi.class
+com\heima\article\apis\ArticleInfoControllerApi.class
+com\heima\media\apis\MaterialManageControllerApi.class
+com\heima\user\apis\UserRelationControllerApi.class
 com\heima\article\apis\ArticleHomeControllerApi.class
+com\heima\article\apis\ArticleSearchControllerApi.class
+com\heima\media\apis\LoginControllerApi.class

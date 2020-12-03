@@ -1,0 +1,9 @@
+com\heima\login\UserJarApplication.class
+com\heima\login\service\impl\AppFollowBehaviorServiceImpl.class
+com\heima\login\controller\v1\UserRelationController.class
+com\heima\login\service\AppUserRelationService.class
+com\heima\login\config\IdWorker.class
+com\heima\login\config\MysqlConfig.class
+com\heima\login\service\impl\AppUserRelationServiceImpl.class
+com\heima\login\config\InitConfig.class
+com\heima\login\service\AppFollowBehaviorService.class

@@ -23,6 +23,7 @@ import java.util.List;
  * @date 2020/11/2510:23
  */
 @Service
+@SuppressWarnings("all")
 public class AppArticleServiceImpl implements AppArticleService {
     private static final int MAX_PAGE_SIZE = 50;
     @Autowired

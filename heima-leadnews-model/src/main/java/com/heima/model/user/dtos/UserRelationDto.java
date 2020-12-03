@@ -8,19 +8,21 @@ public class UserRelationDto {
 
     // 文章作者ID
     @IdEncrypt
-    Integer authorId;
+    Integer authorid;
 
     // 用户ID
     @IdEncrypt
-    Integer userId;
+    Integer userid;
 
     // 文章
     @IdEncrypt
-    Integer articleId;
+    Integer articleid;
     /**
      * 操作方式
      * 0  关注
      * 1  取消
      */
     Short operation;
+
+    Integer type;
 }

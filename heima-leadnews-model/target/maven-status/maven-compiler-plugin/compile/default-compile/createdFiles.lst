@@ -30,6 +30,7 @@ com\heima\model\admin\pojos\AdChannel.class
 com\heima\model\crawler\core\proxy\CrawlerProxy.class
 com\heima\model\behavior\dtos\LikesBehaviorDto.class
 com\heima\model\admin\pojos\AdUser.class
+com\heima\model\mappers\app\ApUserSearchMapper.class
 com\heima\model\media\pojos\WmNews.class
 com\heima\model\media\pojos\WmUserAuth.class
 com\heima\model\crawler\enums\CrawlerEnum$ComponentType.class
@@ -68,6 +69,7 @@ com\heima\model\user\pojos\ApUserMessage.class
 com\heima\model\mappers\app\ApArticleMapper.class
 com\heima\model\media\dtos\WmMaterialListDto.class
 com\heima\model\article\dtos\ArticleInfoDto.class
+com\heima\model\mappers\app\ApHotWordsMapper.class
 com\heima\model\crawler\core\label\HtmlLabel.class
 com\heima\model\admin\pojos\AdMenu.class
 com\heima\model\admin\pojos\AdRecommendStrategy.class
@@ -95,6 +97,7 @@ com\heima\model\mess\admin\AutoReviewClNewsSuccess.class
 com\heima\model\media\dtos\WmMaterialDto.class
 com\heima\model\annotation\IdEncrypt.class
 com\heima\model\behavior\dtos\ReadBehaviorDto.class
+com\heima\model\mappers\admin\AdChannelMapper.class
 com\heima\model\user\dtos\FansOperationDto.class
 com\heima\model\media\dtos\CommentReplytDto.class
 com\heima\model\article\pojos\ApCollection$Type.class
@@ -118,6 +121,7 @@ com\heima\model\user\pojos\ApUserEquipment.class
 com\heima\model\crawler\core\request\RequestData.class
 com\heima\model\admin\dtos\AuthDto.class
 com\heima\model\behavior\dtos\ForwardBehaviorDto.class
+com\heima\model\mappers\app\ApAssociateWordsMapper.class
 com\heima\model\crawler\core\proxy\CrawlerProxyProvider.class
 com\heima\model\media\pojos\WmUserLogin.class
 com\heima\model\crawler\core\callback\DataValidateCallBack.class
