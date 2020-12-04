@@ -17,7 +17,7 @@ import java.util.List;
 @SuppressWarnings("all")
 public class AdChannelServiceImpl implements AdChannelService {
     @Autowired
-    private AdChannelMapper adChannelMapper = null;
+    private AdChannelMapper adChannelMapper;
 
     @Override
     public List<AdChannel> selectAll() {

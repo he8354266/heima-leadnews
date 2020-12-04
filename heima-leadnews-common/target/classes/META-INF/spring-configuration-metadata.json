@@ -1,6 +1,11 @@
 {
   "groups": [
     {
+      "name": "fast.dfs",
+      "type": "com.heima.common.fastdfs.FastDfsConfig",
+      "sourceType": "com.heima.common.fastdfs.FastDfsConfig"
+    },
+    {
       "name": "mysql.core",
       "type": "com.heima.common.mysql.core.TransactionConfig",
       "sourceType": "com.heima.common.mysql.core.TransactionConfig"
@@ -17,6 +22,23 @@
     }
   ],
   "properties": [
+    {
+      "name": "fast.dfs.connect-timeout",
+      "type": "java.lang.Integer",
+      "sourceType": "com.heima.common.fastdfs.FastDfsConfig",
+      "defaultValue": 0
+    },
+    {
+      "name": "fast.dfs.so-timeout",
+      "type": "java.lang.Integer",
+      "sourceType": "com.heima.common.fastdfs.FastDfsConfig",
+      "defaultValue": 0
+    },
+    {
+      "name": "fast.dfs.tracker-server",
+      "type": "java.lang.String",
+      "sourceType": "com.heima.common.fastdfs.FastDfsConfig"
+    },
     {
       "name": "mysql.core.aliases-package",
       "type": "java.lang.String",

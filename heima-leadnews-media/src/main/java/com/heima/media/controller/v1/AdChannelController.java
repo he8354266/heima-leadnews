@@ -16,7 +16,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping("/api/v1/channel")
 public class AdChannelController implements AdChannelControllerApi {
     @Autowired
-    private AdChannelService adChannelService = null;
+    private AdChannelService adChannelService ;
 
     @Override
     @RequestMapping("/channels")

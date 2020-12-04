@@ -2,6 +2,7 @@ package com.heima.media.service;
 
 import com.heima.model.common.dtos.ResponseResult;
 import com.heima.model.media.dtos.WmMaterialDto;
+import com.heima.model.media.dtos.WmMaterialListDto;
 import org.springframework.web.multipart.MultipartFile;
 
 /**
@@ -32,7 +33,7 @@ public interface MaterialService {
      * @param dto
      * @return
      */
-    ResponseResult findList(WmMaterialDto dto);
+    ResponseResult findList(WmMaterialListDto dto);
 
     /**
      * 收藏或取消收藏

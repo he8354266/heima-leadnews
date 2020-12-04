@@ -14,6 +14,7 @@ com\heima\common\web\app\security\AppTokenFilter.class
 com\heima\common\jackson\ConfusionSerializerModifier.class
 com\heima\common\jackson\ConfusionDeserializerModifier.class
 com\heima\common\zookeeper\sequence\Sequences.class
+com\heima\common\fastdfs\FastDfsClient.class
 com\heima\common\mysql\core\TransactionConfig.class
 com\heima\common\common\util\HMStringUtils.class
 com\heima\common\zookeeper\sequence\ZkSequence.class
@@ -23,8 +24,10 @@ com\heima\common\web\wm\security\WmCheckSignFilter.class
 com\heima\common\threadpool\ThreadPoolConfig.class
 com\heima\common\zookeeper\ZkConfig.class
 com\heima\common\zookeeper\sequence\ZkSequenceEnum.class
+com\heima\common\constans\WmMediaConstans.class
 com\heima\common\web\admin\security\AdminCheckSignFilter.class
 com\heima\common\common\contants\Contants.class
+com\heima\common\fastdfs\FastDfsConfig.class
 com\heima\common\common\util\IdWorker.class
 com\heima\common\common\pojo\EsIndexEntity.class
 com\heima\common\common\storage\StorageData.class
