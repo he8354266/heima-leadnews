@@ -1,7 +1,9 @@
 package com.heima.media;
 
 import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.boot.autoconfigure.web.servlet.MultipartAutoConfiguration;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.transaction.annotation.EnableTransactionManagement;
 
@@ -11,6 +13,7 @@ import org.springframework.transaction.annotation.EnableTransactionManagement;
  * @date 2020/12/39:12
  */
 @SpringBootApplication
+
 public class MediaJarApplication {
     public static void main(String[] args) {
         SpringApplication.run(MediaJarApplication.class, args);

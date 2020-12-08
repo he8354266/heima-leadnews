@@ -57,6 +57,7 @@ com\heima\model\user\dtos\FansOperationDto.class
 com\heima\model\crawler\pojos\ClNewsMaterial.class
 com\heima\model\media\pojos\WmUserEquipment.class
 com\heima\model\crawler\core\cookie\CrawlerCookie.class
+com\heima\model\mappers\admin\AdUserMapper.class
 com\heima\model\article\pojos\ApHotArticles.class
 com\heima\model\mappers\app\ApCollectionMapper.class
 com\heima\model\behavior\dtos\FollowBehaviorDto.class

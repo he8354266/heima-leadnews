@@ -1,0 +1,10 @@
+com\itheima\admin\service\UserLoginService.class
+com\itheima\admin\controller\v1\LoginController.class
+com\itheima\admin\service\CommonService.class
+com\itheima\admin\config\MysqlConfig.class
+com\itheima\admin\service\impl\commfilter\BaseCommonFilter.class
+com\itheima\admin\AdminJarApplication.class
+com\itheima\admin\dao\CommonDao.class
+com\itheima\admin\service\impl\CommonServiceImpl.class
+com\itheima\admin\service\impl\UserLoginServiceImpl.class
+com\itheima\admin\controller\v1\CommonController.class

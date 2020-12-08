@@ -9,6 +9,6 @@ import org.springframework.context.annotation.Configuration;
  * @date 2020/12/411:54
  */
 @Configuration
-@ComponentScan({"com.heima.common.fastdfs"})
+@ComponentScan({ "com.heima.common.fastdfs"})
 public class InitConfig {
 }
