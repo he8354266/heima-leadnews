@@ -16,4 +16,7 @@ public interface ApArticleMapper {
     List<ApArticle> loadArticleListByLocation(@Param("dto") ArticleHomeDto dto, @Param("type") short type);
 
     List<ApArticle> loadArticleListByIdList(List<ApUserArticleList> list);
+
+    void insert(ApArticle apArticle);
+    ApArticle selectById(Long id);
 }

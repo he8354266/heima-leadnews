@@ -49,4 +49,6 @@ public interface WmNewsMapper {
     WmNews selectNewsDetailByPrimaryKey(Integer id);
 
     int deleteByPrimaryKey(Integer id);
+
+    int updateByPrimaryKeySelective(WmNews record);
 }

@@ -37,7 +37,7 @@
 
     <sql id="Base_Column_List">
 
-    id, user_id,content, title, type, channel_id, labels, created_time, submited_time, status,enable,
+    id, user_id,content, title, type, channel_id, labels, created_time, submited_time, status,
     publish_time, reason, article_id, images
   </sql>
     <update id="updateByPrimaryKey" parameterType="com.heima.model.media.pojos.WmNews">
@@ -111,4 +111,47 @@
     <delete id="deleteByPrimaryKey" parameterType="int">
         delete from wm_news where id=#{id}
     </delete>
+    <update id="updateByPrimaryKeySelective" parameterType="com.heima.model.media.pojos.WmNews" >
+
+        update wm_news
+        <set >
+            <if test="userId != null" >
+                user_id = #{userId},
+            </if>
+            <if test="title != null" >
+                title = #{title},
+            </if>
+            <if test="type != null" >
+                type = #{type},
+            </if>
+            <if test="channelId != null" >
+                channel_id = #{channelId},
+            </if>
+            <if test="labels != null" >
+                labels = #{labels},
+            </if>
+            <if test="createdTime != null" >
+                created_time = #{createdTime},
+            </if>
+            <if test="submitedTime != null" >
+                submited_time = #{submitedTime},
+            </if>
+            <if test="status != null" >
+                status = #{status,jdbcType=TINYINT},
+            </if>
+            <if test="publishTime != null" >
+                publish_time = #{publishTime},
+            </if>
+            <if test="reason != null" >
+                reason = #{reason},
+            </if>
+            <if test="articleId != null" >
+                article_id = #{articleId},
+            </if>
+            <if test="content != null" >
+                content = #{content,jdbcType=LONGVARCHAR},
+            </if>
+        </set>
+        where id = #{id}
+    </update>
 </mapper>

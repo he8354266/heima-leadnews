@@ -1,5 +1,6 @@
 package com.heima.model.mappers.app;
 
+import com.heima.model.article.pojos.ApAuthor;
 import com.heima.model.user.pojos.ApUser;
 
 /**
@@ -11,4 +12,8 @@ public interface ApUserMapper {
     ApUser selectById(Integer id);
 
     ApUser selectByApPhone(String phone);
+
+    ApAuthor selectByAuthorName(String authorName);
+
+    void insert(ApAuthor apAuthor);
 }

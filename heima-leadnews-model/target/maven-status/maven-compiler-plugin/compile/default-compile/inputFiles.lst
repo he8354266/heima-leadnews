@@ -154,6 +154,7 @@ E:\APP\heima-leadnews\heima-leadnews\heima-leadnews-model\src\main\java\com\heim
 E:\APP\heima-leadnews\heima-leadnews\heima-leadnews-model\src\main\java\com\heima\model\user\pojos\ApUserSearch.java
 E:\APP\heima-leadnews\heima-leadnews\heima-leadnews-model\src\main\java\com\heima\model\article\pojos\ApHotWords.java
 E:\APP\heima-leadnews\heima-leadnews\heima-leadnews-model\src\main\java\com\heima\model\media\pojos\WmUserLogin.java
+E:\APP\heima-leadnews\heima-leadnews\heima-leadnews-model\src\main\java\com\heima\model\mappers\app\ApUserMessageMapper.java
 E:\APP\heima-leadnews\heima-leadnews\heima-leadnews-model\src\main\java\com\heima\model\article\pojos\ApDynamic.java
 E:\APP\heima-leadnews\heima-leadnews\heima-leadnews-model\src\main\java\com\heima\model\admin\dtos\AuthDto.java
 E:\APP\heima-leadnews\heima-leadnews\heima-leadnews-model\src\main\java\com\heima\model\admin\pojos\AdVistorStatistics.java

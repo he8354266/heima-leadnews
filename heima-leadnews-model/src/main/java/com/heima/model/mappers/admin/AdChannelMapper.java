@@ -11,4 +11,6 @@ import java.util.List;
  */
 public interface AdChannelMapper {
     List<AdChannel> selectAll();
+
+    AdChannel selectByPrimaryKey(int id);
 }

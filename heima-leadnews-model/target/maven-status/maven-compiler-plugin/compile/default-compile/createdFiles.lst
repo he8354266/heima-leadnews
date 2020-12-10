@@ -121,6 +121,7 @@ com\heima\model\crawler\pojos\ClMaterial.class
 com\heima\model\media\pojos\WmSubUser.class
 com\heima\model\quartz\dtos\QuartzJob.class
 com\heima\model\mappers\wemedia\WmMaterialMapper.class
+com\heima\model\mappers\app\ApUserMessageMapper.class
 com\heima\model\user\pojos\ApUserMessage.class
 com\heima\model\mappers\app\ApArticleMapper.class
 com\heima\model\media\dtos\WmMaterialListDto.class
